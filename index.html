@@ -4,41 +4,98 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CoffeBlog</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <h1>CoffeBlog</h1>
+      <div class="texto_header">
+        <div class="header_flex">
+          <h1>CoffeeBlog</h1>
+          <nav>
+            <a href="about.html">About me</a>
+            <a href="courses.html">Courses</a>
+            <a href="contact.html">Contact</a>
+          </nav>
+        </div>
+
+        <p class="p_header">Coffee Blog with tips and courses</p>
+        <p class="p_header">
+          Learn from the experts with the best recipes and tips
+        </p>
+      </div>
     </header>
-    <main>
-      <h2>Coffee Blog with tips and Courses</h2>
-      <p>Learn from the experts with the best recipes and tips</p>
-      <h2>Our Blog</h2>
-      <br />
-      <h3>Coffe Bean Type</h3>
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-        fugit error nam unde possimus totam, impedit temporibus animi magni vel
-        mollitia quidem eaque! Delectus aut ex cum unde quidem earum!
-      </p>
-      <br />
-      <h3>3 Delicious Coffee Recipes</h3>
-      <br />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi
-        soluta eveniet necessitatibus maxime eligendi esse quis suscipit alias,
-        magni quibusdam ullam ipsum nihil cupiditate reiciendis. Iure rem
-        officiis quibusdam!
-      </p>
-      <h3>Coffee Benefits</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo
-        repellat quas voluptatum explicabo, qui nesciunt. Sit deserunt tenetur,
-        nisi expedita molestiae sunt similique autem nam, velit architecto
-        suscipit fuga?
-      </p>
-      <br />
+
+    <div class="main_flex">
+      <main class="container">
+        <h2>Coffee Blog with tips and Courses</h2>
+        <p>Learn from the experts with the best recipes and tips</p>
+        <h2>Our Blog</h2>
+        <br />
+        <div>
+          <img src="coffee-images-main/blog2.jpg" />
+          <h3>Coffe Bean Type</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
+            fugit error nam unde possimus totam, impedit temporibus animi magni
+            vel mollitia quidem eaque! Delectus aut ex cum unde quidem earum!
+          </p>
+          <button href="#" class="see_more">See more</button>
+          <br />
+          <br />
+          <img src="coffee-images-main/blog3.jpg" />
+          <br />
+          <br />
+          <br />
+        </div>
+        <div>
+          <h3>3 Delicious Coffee Recipes</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis modi
+            soluta eveniet necessitatibus maxime eligendi esse quis suscipit
+            alias, magni quibusdam ullam ipsum nihil cupiditate reiciendis. Iure
+            rem officiis quibusdam!
+          </p>
+          <button href="#" class="see_more">See more</button>
+        </div>
+        <div>
+          <h3>Coffee Benefits</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo
+            repellat quas voluptatum explicabo, qui nesciunt. Sit deserunt
+            tenetur, nisi expedita molestiae sunt similique autem nam, velit
+            architecto suscipit fuga?
+          </p>
+          <button href="#" class="see_more">See more</button>
+          <br />
+        </div>
+      </main>
+
+      <div>
+        <h2 class="workshops">Our courses and workshops</h2>
+        <article class="courses courses_border">
+          <h3 class="workshops_h2">Coffe extraction techniques</h3>
+          <p><span class="bold_txt">Price: </span>Free</p>
+          <p><span class="bold_txt">Seat: </span>20</p>
+          <button href="#" class="more_info">MORE INFORMATION</button>
+        </article>
+        <article class="courses courses_border">
+          <h3 class="workshops_h2">4 Coffee Recipes for beginners</h3>
+          <p><span class="bold_txt">Price: </span>Free</p>
+          <p><span class="bold_txt">Seat: </span>20</p>
+          <button href="#" class="more_info">MORE INFORMATION</button>
+        </article>
+      </div>
+    </div>
+
+    <footer>
       <h2>CoffeeBlog</h2>
-    </main>
+      <ul class="footer_links">
+        <li>About us</li>
+        <li>Courses</li>
+        <li>Contact</li>
+      </ul>
+    </footer>
   </body>
 </html>
