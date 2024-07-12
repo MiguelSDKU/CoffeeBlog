@@ -1,0 +1,192 @@
+/*Global*/
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  text-decoration: none;
+}
+
+main h2 {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 3dvh;
+  margin-bottom: 1dvh;
+  margin-top: 1dvh;
+}
+
+main p {
+  margin-bottom: 3dvh;
+  margin-right: 25%;
+  text-align: justify;
+  line-height: 3dvh;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*Header*/
+header {
+  text-align: center;
+  color: white;
+  background-image: url(/coffee-images-main/banner.jpg);
+  background-size: 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+}
+
+.icon {
+  font-size: 3dvh;
+  margin-right: 10dvh;
+}
+
+header a {
+  color: white;
+  margin-right: 3dvh;
+}
+
+.texto_header {
+  padding-top: 2dvh;
+  padding-bottom: 2dvh;
+}
+
+.p_header {
+  padding-top: 1dvh;
+}
+
+.p_bold {
+  font-size: 3dvh;
+}
+
+.bold_txt {
+  font-weight: bold;
+}
+
+.header_flex {
+  display: flex;
+  flex-direction: row;
+  height: 25px;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 12dvh;
+}
+
+/*Body*/
+
+main {
+  padding-left: 20dvh;
+  margin: 2dvh;
+  margin-top: 2dvh;
+  margin-bottom: 2dvh;
+}
+
+.main_flex {
+  display: flex;
+}
+
+/* .container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.see_more {
+  background-color: black;
+  padding: 1dvh;
+  color: white;
+  text-decoration: none;
+  font-size: 2dvh;
+  padding-left: 2dvh;
+  padding-right: 5dvh;
+  text-align: center;
+  font-weight: lighter;
+  transition: background-color 0.3s;
+  cursor: pointer;
+}
+
+.see_more:hover {
+  background-color: gray;
+  color: white;
+}
+
+.workshops {
+  margin-top: 9dvh;
+  font-size: x-large;
+}
+
+.workshops_h2 {
+  font-size: medium;
+}
+
+.courses h2:first-child {
+  margin-top: 5dvh;
+}
+
+.more_info {
+  background-color: darkgoldenrod;
+  padding-left: 25%;
+  padding-right: 25%;
+  color: white;
+  text-decoration: none;
+  font-size: 1.7dvh;
+  text-align: center;
+  font-weight: lighter;
+  transition: background-color 0.3s;
+  cursor: pointer;
+  margin-bottom: 0dvh;
+  margin-top: 3dvh;
+}
+
+.more_info:hover {
+  background-color: rgb(58, 42, 3);
+  color: white;
+}
+
+.courses {
+  margin-bottom: 0dvh;
+  margin-top: 0dvh;
+}
+
+.courses_border {
+  border-top: 2px solid black;
+  margin-top: 3dvh;
+  padding-top: 2dvh;
+}
+
+.courses_border:last-child {
+  border-bottom: 2px solid black;
+  padding-bottom: 3dvh;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 3dvh;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 3dvh;
+}
+
+.footer_flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer_links {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0.5dvh;
+}
+
+.footer_links li {
+  display: inline;
+  margin-right: 6dvh;
+}
+
+.footer_links li:last-child {
+  margin-right: 0;
+}
