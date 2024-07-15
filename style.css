@@ -5,6 +5,10 @@
   text-decoration: none;
 }
 
+a {
+  color: white;
+}
+
 main h2 {
   margin-bottom: 2dvh;
   margin-top: 2dvh;
